@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getRandomLengthString(str : String) : String{
-        val n = (1..20).random()
+        val n = (1..22).random()
         val builder = StringBuilder()
         repeat(n){
             builder.append(str)
